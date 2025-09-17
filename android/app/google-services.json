@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "429012706798",
+    "project_id": "moodmatch-ea4c7",
+    "storage_bucket": "moodmatch-ea4c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429012706798:android:b6edbfc921b200cab65aff",
+        "android_client_info": {
+          "package_name": "com.example.five_m_stress_relief"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFKT-maVKdgVmDYkH-iPM9rxD3C5iCPG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429012706798:android:94b018b9ed412531b65aff",
+        "android_client_info": {
+          "package_name": "com.kishore.moodmatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkwKaRgxP3UvKTp3itRn5UWDRiMArtkQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

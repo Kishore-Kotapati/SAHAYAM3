@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "moodsync-backend",
+  "version": "2.0.0",
+  "description": "MoodSync - AI-powered emotional wellness chat platform",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "vercel dev",
+    "build": "echo 'Vercel serverless build'",
+    "vercel": "vercel",
+    "deploy": "vercel --prod",
+    "local": "cross-env PORT=4000 nodemon api/index.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.57.4",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.8.1",
+    "engine.io": "^6.5.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1",
+    "vercel": "^41.0.2",
+    "@vercel/node": "^3.0.0"
+  },
+  "keywords": [
+    "moodsync",
+    "ai",
+    "wellness",
+    "chat",
+    "emotional-support",
+    "vercel",
+    "serverless",
+    "flutter",
+    "websocket"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  },
+  "type": "commonjs"
+}
