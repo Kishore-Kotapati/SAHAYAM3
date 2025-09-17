@@ -1,11 +1,10 @@
 {
-  "version": 2,
   "functions": {
     "api/index.js": {
-      "runtime": "@vercel/node"
+      "maxDuration": 30
     },
     "api/socket.js": {
-      "runtime": "@vercel/node"
+      "maxDuration": 30
     }
   },
   "rewrites": [
@@ -19,21 +18,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/build/web/$1"
+      "destination": "/build/web/index.html"
     }
-  ],
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/.*",
-      "dest": "/build/web/index.html"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "cleanUrls": true,
-  "trailingSlash": false
+  ]
 }
